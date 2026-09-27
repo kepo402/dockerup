@@ -13,7 +13,7 @@ def index():
     count = r.incr("hits")
 
     return jsonify({
-        "message": "Hello from Docker Compose",
+        "message": "Hello from Docker Compose!",
         "visits": count
     })
 
